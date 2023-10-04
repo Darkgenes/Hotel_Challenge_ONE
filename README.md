@@ -56,7 +56,7 @@ This was based in Best-README-Template[https://github.com/othneildrew/Best-READM
 
 ## 1. Introducción || Introduction
 
-Se trata de una aplicación que convierte el valor de una divisa a otra (yenes, dólares, wones, libras esterlinas, euros y pesos colombianos), de una temperatura a otra (Fahrenheit, Celsius y Kelvin) y el valor de longitudes (kilómetros, metros, millas, pies y pulgadas). Primer Challenge del grupo 5 de ONE llamado "Sprint 02: Challenge Back End Java - Conversor". || This is an application that converts the value of one currency to another (yen, dollars, won, pounds sterling, euros and Colombian pesos), from one temperature to another (Fahrenheit, Celsius and Kelvin) and the value of lengths (kilometers, meters, miles, feet and inches). First Challenge of group 5 of ONE called "Sprint 02: Challenge Back End Java - Converter".
+Se trata de una aplicación llamada "El Hotel Alura", que pretende hacer uso de los conocimientos adquiridos a lo largo del curso (Java y SQL). En este caso, el reto es simular una interfaz de usuario con las opciones de reserva y observación de reservas de un hotel. Tercer Challenge del grupo 5 de ONE llamado "Sprint 03: Challenge Back End Java - Hotel Alura". || It is an application called "El Hotel Alura", which aims to make use of the knowledge acquired throughout the course (Java and SQL). In this case, the challenge is to simulate a user interface with the options of reservation and observation of reservations in a hotel. Third Challenge of group 5 of ONE called "Sprint 03: Challenge Back End Java - Hotel Alura".
 
 <p align = "right">(<a href = "#readme-top">back to top</a>)</p>
 
@@ -64,26 +64,30 @@ Se trata de una aplicación que convierte el valor de una divisa a otra (yenes, 
 
 Las características que utilizaremos son las siguientes: || The features we shall use are as it follows below:
 
-*Uso de la clase JOptionPane de la Biblioteca Java Swing. || Use of the JOptionPane class of the Java Swing Library.
-*Utilización de excepciones. || Use of exceptions. 
+*Uso de base de datos con SQL y MySQL. || Use of database with SQL and MySQL.
+*Uso de lo anterior con JAVA. || Usage of above with JAVA. 
 
 ### 2. 1. Requisitos: || Requirements
 
 Aquí los requisitos señalados por el curso: || Here are the course requirements:
 
-* Convertir de la moneda de tu país a Dólar. || Convert from your country's currency to Dollar.
-* Convertir de la moneda de tu país a Euros. || Convert from your country's currency to Euros.
-* Convertir de la moneda de tu país a Libras Esterlinas. || Convert from your country's currency to British Pounds.
-* Convertir de la moneda de tu país a Yen Japonés. || Convert from your country's currency to Japanese Yen.
-* Convertir de la moneda de tu país a Won Sur-coreano. || Convert from your country's currency to Korean Won.
+*Sistema de autenticación de usuario para que solo usuarios pertenecientes al hotel consigan acceder al sistema. || User authentication system so that only users belonging to the hotel can access the system.
 
-Y también en la sentido contrario || And also the opposite way.
+*Permitir crear, editar y eliminar una reserva para los clientes. || Allow to create, edit and delete a reservation for customers.
 
-El resultado deberá ser mostrado en la pantalla. || Result should be displayed on the screen.
+*Buscar en la base de datos todas las informaciones tanto de los clientes como de las reservas. || Search the database for all customer and reservation information.
+
+*Registrar, editar y eliminar datos de los huéspedes. || Register, edit and delete guest data.
+
+Calcular el valor de la reserva en base a la cantidades de días de la reserva y a una tasa diaria que puede ser asignada por ti y en la moneda local de tu país. Por ejemplo, si tenemos una reserva de 3 días y el valor de nuestra diaria son 20$ debemos multiplicar esos 3 dias por el valor de la diaria, lo que serían 60$, todo esto deberá ser hecho automáticamente y mostrado al usuario antes de guardar la reserva. || Calculate the value of the reservation based on the number of days of the reservation and a daily rate that can be assigned by you and in the local currency of your country. For example, if we have a 3 days reservation and the value of our daily rate is 20$ we must multiply those 3 days by the value of the daily rate, which would be 60$, all this should be done automatically and shown to the user before saving the reservation.
+
+Se necesita de una Base de datos para almacenar todos los datos pedidos anteriormente. || A database is needed to store all the data requested above.
 
 ## 3. Extras:
 
-Se pueden añadir otras opciones en lugar de solo implementar divisas. || Other options can be added instead of just implementing currencies.
+Ahora te preguntarás, ¿Cómo sé que datos debo registrar? Para eso el líder del proyecto puso a disposición un Diagrama de Entidad Relación que usaremos para crear las tablas en nuestra base de Datos y que se muestra a continuación: || Now you may be wondering, how do I know what data to record? For that the project leader made available an Entity Relationship Diagram that we will use to create the tables in our database and it is shown below:
+
+![image](https://github.com/Darkgenes/Hotel_Challenge_ONE/assets/88634132/fb002252-270f-4b10-8ec9-fa43cae68a5b)
 
 <p align = "right">(<a href = "#readme-top">back to top</a>)</p>
 
